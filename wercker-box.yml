@@ -1,0 +1,20 @@
+name : frontend
+version : 0.0.1
+inherits : kojiwakayama/box-nodejs-ruby-sass@0.0.6
+type : main
+platform : ubuntu@12.04
+packages :
+  - nodejs@0.10.32
+  - ruby@2.0.0-p353
+keywords:
+  - ruby
+  - nodejs
+  - sass
+  - scss-lint
+  - gulp
+  - grunt
+  - jshint
+  - browserify
+
+script: |
+  sudo npm install -g gulp grunt-cli jshint browserify
