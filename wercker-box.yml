@@ -1,6 +1,6 @@
 name : frontend
 version : 0.0.1
-inherits : kojiwakayama/box-nodejs-ruby-sass@0.0.6
+inherits : kojiwakayama/nodejs-ruby-sass@0.0.6
 type : main
 platform : ubuntu@12.04
 packages :
